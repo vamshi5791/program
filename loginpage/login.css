@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(back.jpg);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+    background: rgba(8, 11, 151, 0.4);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="possword"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    border-radius: 20px;
+   padding: 14px 10px;
+}
+.box input[type="summit"]{
+    font-size: 24px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 30px solid #ffc400ec;
+    padding: 14px 35px;
+    outline: none;
+    color: rgb(136, 179, 20);
+    border-radius:20px;
+    transition: 0.25px;
+    cursor: pointer;
+    
+}
+.box input[type="summit"]:hover{
+    background: #ffc400ec;
+}
