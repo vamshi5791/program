@@ -4,5 +4,5 @@ for(i=1;i<=num;i++){
     fact=fact*i; 
     
 }
-num--;
-console.log(fact);
+//num--;
+console.log(`factorial of a given number is ${fact}`);

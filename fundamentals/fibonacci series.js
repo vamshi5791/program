@@ -9,5 +9,6 @@ while(nn <= num){
     n1=n2;
     n2=nn;
     nn=n1+n2;
+   
 }
 
